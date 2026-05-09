@@ -1,0 +1,17 @@
+# ============================================
+# PRODUCTION PROFILE - RAILWAY DEPLOYMENT
+# ============================================
+spring.datasource.url=${SPRING_DATASOURCE_URL}
+spring.datasource.username=${SPRING_DATASOURCE_USERNAME}
+spring.datasource.password=${SPRING_DATASOURCE_PASSWORD}
+
+spring.datasource.hikari.maximum-pool-size=${DB_POOL_SIZE:10}
+spring.datasource.hikari.minimum-idle=${DB_MIN_IDLE:5}
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+
+app.jwt.secret=${JWT_SECRET}
+app.jwt.expiration=${JWT_EXPIRATION:2592000000}
+
+app.cors.allowed-origins=${CORS_ORIGINS:http://localhost:5173}
