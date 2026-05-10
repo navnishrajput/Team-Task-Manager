@@ -478,24 +478,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 
 ---
-
-## ✅ README Includes
-
-| Section | Content |
-|---------|---------|
-| Badges | Version, Java, Spring Boot, React, PostgreSQL |
-| Overview | Project description and highlights |
-| Features | Checkbox list of all features |
-| Tech Stack | Complete technology table |
-| Project Structure | File tree diagram |
-| Prerequisites | Required software with download links |
-| Installation | Step-by-step setup guide |
-| Database Schema | ER diagram + table descriptions |
-| API Documentation | Full endpoint reference table |
-| Role-Based Access | Comparison table |
-| Screenshots | Placeholder section |
-| Postman Collection | Import & test instructions |
-| Deployment | Railway + Vercel/Netlify guide |
-| Troubleshooting | Common issues & fixes |
-| Contributing | PR workflow |
-
