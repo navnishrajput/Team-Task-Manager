@@ -45,7 +45,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(Arrays.asList(
-                "https://invigorating-miracle-production-74c1.up.railway.app",
+                "https://invigorating-miracle-production-81da.up.railway.app",
                 "https://team-task-manager-nr.netlify.app",
                 "http://localhost:5173"
         ));
